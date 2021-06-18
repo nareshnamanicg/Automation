@@ -65,12 +65,7 @@ pipeline {
                    -Dsonar.projectName=way2homeservices \
                    -Dsonar.projectVersion=1.0 \
                    -Dsonar.sources=src/ \
-		   -Dsonar.java.binaries=src/main/webapp/WEB-INF/classes/com/yks/way2homeservices/config/ 
-		   -Dsonar.java.binaries=src/main/webapp/WEB-INF/classes/com/yks/way2homeservices/controller/ 
-		   -Dsonar.java.binaries=src/main/webapp/WEB-INF/classes/com/yks/way2homeservices/dao/ 
-		   -Dsonar.java.binaries=src/main/webapp/WEB-INF/classes/com/yks/way2homeservices/model/ 
-		   -Dsonar.java.binaries=src/main/webapp/WEB-INF/classes/com/yks/way2homeservices/services/ 
-		   -Dsonar.java.binaries=src/main/webapp/WEB-INF/classes/com/yks/way2homeservices/utill/ 
+		   -Dsonar.java.binaries=src/main/webapp/WEB-INF/classes/ \
                    -Dsonar.java.checkstyle.reportPaths=target/checkstyle-result.xml'''
             }
 

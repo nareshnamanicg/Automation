@@ -65,6 +65,8 @@ pipeline {
                    -Dsonar.projectName=way2homeservices \
                    -Dsonar.projectVersion=1.0 \
                    -Dsonar.sources=src/ \
+		   -Dsonar.host.url=http://172.31.19.59
+		   -Dsonar.login=84335dcfd36a45a9938cc9c584f76534c88cb36b
                    -Dsonar.java.checkstyle.reportPaths=target/checkstyle-result.xml'''
             }
 

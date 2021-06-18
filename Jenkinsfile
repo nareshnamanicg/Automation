@@ -65,7 +65,6 @@ pipeline {
                    -Dsonar.projectName=way2homeservices \
                    -Dsonar.projectVersion=1.0 \
                    -Dsonar.sources=src/ \
-		   -Dsonar.java.binaries=
                    -Dsonar.java.checkstyle.reportPaths=target/checkstyle-result.xml'''
             }
 

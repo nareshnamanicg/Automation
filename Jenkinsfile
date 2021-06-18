@@ -61,7 +61,7 @@ pipeline {
 
           steps {
             withSonarQubeEnv('sonar-pro') {
-               sh '''${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=vprofile \
+               sh '''${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=javascript-test \
                    -Dsonar.projectName=way2homeservices \
                    -Dsonar.projectVersion=1.0 \
                    -Dsonar.sources=src/ \

@@ -64,9 +64,12 @@ pipeline {
                sh '''${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=javascript-test \
                    -Dsonar.projectName=way2homeservices \
                    -Dsonar.projectVersion=1.0 \
-                   -Dsonar.sources=src/ \
-		   -Dsonar.host.url=http://172.31.19.59
-		   -Dsonar.login=84335dcfd36a45a9938cc9c584f76534c88cb36b
+                   -Dsonar.sources=src/main/java/com/yks/way2homeservices/config/ \ 
+		   -Dsonar.sources=src/main/java/com/yks/way2homeservices/controller/ \ 
+		   -Dsonar.sources=src/main/java/com/yks/way2homeservices/dao/ \ 
+		   -Dsonar.sources=src/main/java/com/yks/way2homeservices/model/ \
+		   -Dsonar.sources=src/main/java/com/yks/way2homeservices/services/ \ 
+		   -Dsonar.sources=src/main/java/com/yks/way2homeservices/util/ \ 
 		   -Dsonar.java.binaries=src/main/webapp/WEB-INF/classes/com/yks/way2homeservices/config/ \
 		   -Dsonar.java.binaries=src/main/webapp/WEB-INF/classes/com/yks/way2homeservices/controller/ \
 		   -Dsonar.java.binaries=src/main/webapp/WEB-INF/classes/com/yks/way2homeservices/dao/ \

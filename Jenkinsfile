@@ -65,9 +65,6 @@ pipeline {
                    -Dsonar.projectName=way2homeservices \
                    -Dsonar.projectVersion=1.0 \
                    -Dsonar.sources=src/ \
-                   -Dsonar.java.binaries=target/maven-status/maven-compiler-plugin/compile/default-compile/\
-                   -Dsonar.junit.reportsPath=target/surefire-reports/ \
-                   -Dsonar.jacoco.reportsPath=target/jacoco.exec \
                    -Dsonar.java.checkstyle.reportPaths=target/checkstyle-result.xml'''
             }
 
